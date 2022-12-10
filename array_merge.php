@@ -19,4 +19,6 @@ function arrayMerge(...$arrays) :array|string
 
     return $result;
 }
-var_dump(arrayMerge($arr1,$arr2));
+//Test Array 
+//var_dump(arrayMerge($arr1,$arr2));
+//var_dump(arrayMerge($arr1,$arr2,array(1.2.3.4.5));
