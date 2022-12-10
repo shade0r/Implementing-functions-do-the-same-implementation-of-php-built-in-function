@@ -11,6 +11,8 @@ function arrayMerge(...$arrays) :array|string
             return "Array number ".($count+1)." is Empty";
         }
         for ($i = 0; $i < count($arrays[$count]); $i++) {
+            if (in_array($arrays[$count][$i],$result))
+                continue;
             $result[] = $arrays[$count][$i];
         }
     }
